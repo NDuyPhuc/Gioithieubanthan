@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.me{
+height: 100vh;
+width: 100%;
+background-image: url(../Gioithieubanthan/Ảnh\ bản\ thân\ ngang.jpg);
+background-size: cover;
+background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+    a{
+    padding-left: 25px;
+}
+ul{
+    padding-bottom: 12px;
+}
+.myname{
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav{
+    padding-top: 20px;
+}
+span{
+    color:rgb(211, 62, 62)
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.content{
+    padding-left: 8%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+h4{
+    letter-spacing: 4px;
+}
+h3{
+    padding-top: 10px;
+}
+.about{
+    width: 100%;
+    background-color: #101710;
+}
+.anhthuhai{
+    width: 100%;
+}
+.text{
+    color: white;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 15%;
+    margin-right: 10%;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serifs;
+    margin-bottom: 20px;
+    font-size: 250%;
+}
+h5{
+    letter-spacing: 7px;
+}
+p{
+    margin-top: 20px;
+}
+a:hover{
+    color: rgb(211, 62, 62);
+    transition: 0.5s;
+}
+.anhthuba{
+    width: 50%;
+    right: auto; 
+    padding-left: 2%;   
+}
+.kynang{
+    width: 100%;
+    padding: 80px 0;
+    background-color: #1B2524;
+}
+.style{
+    padding-right: 10%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.kynang .anhthuba{
+    height: auto;
+    width: 400px;
+}
+.kynangcuatoi{
+    color: white;
+    padding-left: 10%;
+}
+h2{
+    padding-top: 15px;
+}
+.aboutme{
+    padding: 15px;
+}
+.nhunglienhe{
+    padding: 15px;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #101710;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.lh{
+    margin-bottom: 15px;
+}
